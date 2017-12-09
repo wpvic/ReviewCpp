@@ -10,7 +10,7 @@ int main(){
     cout<<p<<' '<<*p<<' '<<&p<<endl;
     cout<<q<<' '<<*q<<endl;
     // *q prints the value at the memory address of variable q. but q holds the memory address of p.
-    // but p holds the memory address of x. so shouldn't *q print an address?
+    // but p holds the memory address of x
     
     //p is the address of x. p is a pointer
     // *p is the value that the address of memory p is. In this case, it's x address.
