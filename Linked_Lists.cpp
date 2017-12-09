@@ -4,6 +4,7 @@ using namespace std;
 struct node {
   int x;
   node *next;
+  // because it must point to a node (hence node as type)
 };
 
 int main()
